@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <script> // saberi sve brojeve od 1 - 100
+
+        zbir = 0;
+        for (i = 1; i <= 100; i++) {
+            zbir = zbir + i;
+        }
+        document.write("<br>" + zbir);
+
+    </script>
+
+    <hr>
+
+    <script> //saberi sve brojeve izmedju x i y
+
+        function saberi(x, y) {
+            let suma = 0
+
+            for (let i = x; i <= y; i++) {
+                suma += i
+            }
+            return suma
+        }
+
+        console.log(saberi(5, 100))
+
+    </script>
+
+    <script>
+
+        function srednjaVrednost(x, y) {
+            let suma = 0
+
+            for (let i = x; i <= y; i++) {
+                suma += i
+
+            }
+            return srednjaVrednost = suma / (y - x + 1)
+        }
+
+        console.log(srednjaVrednost(200, 300))
+        document.write(srednjaVrednost)
+
+    </script>
+    <br>
+    <script>
+
+        for (i = 1; i <= 100; i++) {
+            if (i % 3 == 0)
+                document.writeln(i)
+        }
+
+
+    </script>
+    <br>
+
+    <script>
+
+        function deljivoSaTri(x, y, delilac)
+        for (let i = x; i <= y; i++) {
+            if (i % delilac == 0)
+                
+        }
+
+        deljivoSaTri(200, 300, 15)
+        document.writeln(i)
+    </script>
+    <hr>
+
+
+
+
+
+
+
+
+
+    <script>
+
+        function stepenovanje(x, stepen)
+
+        for (i = 0; i < stepen; i++) {
+            x = x * stepen;
+            document.writeln(x)
+        }
+        return x
+
+    </script>
+
+
+
+    <script>
+
+        function setpenovanje(x, y) {
+            let rezultat = 1;
+            for (let i = 0; i < y; i++) {
+                rezultat = rezultat * x
+            }
+            return rezultat
+        }
+
+        console.log(stepenovanje(2, 3))
+
+    </script>
+
+</body>
+
+</html>
