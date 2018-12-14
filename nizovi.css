@@ -1,0 +1,12 @@
+#root {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.korisnik{
+    border: 3px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 2%;
+    background: gray;
+}

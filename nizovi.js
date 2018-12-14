@@ -26,7 +26,6 @@ let srednjaVrednost = zbir / nizBrojeva.length
     let suma = 0
     const nizBrojeva = [3, 4, 5, 6, 7, 3, 11]
     for (let i = x; i <= y; i++)
-
     sum = const nizBrojeva i++ 
         return srednjaVrednost = sum.nizBrojeva / nizBrojeva.length */
 
@@ -45,6 +44,4 @@ let nadjeno = false
 for (var i = 0; i < nizImena.length; i++) {
     if (nizImena[i] == trazenoIme) nadjeno = true
 }
-
-
 
